@@ -96,7 +96,7 @@ body, html {
 }
 
 
-.main_div_main_content{
+.article_main_content{
     width: 75%;  /* Defina a largura desejada */
     margin: 0 auto;
     display: flex;
