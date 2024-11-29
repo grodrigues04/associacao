@@ -76,7 +76,7 @@ body{
 }
 
 
-.service-card{
+.service_card{
     display: flex;
     flex-direction: column;
     border-color: #f5f0f05d;
