@@ -1,9 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import style from "../assets/styles/maincontent.module.css";
 import plane_icon from "../assets/img/plane_icon.svg";
-
+import car_icon from "../assets/img/car_icon.svg"
+import sign_icon from "../assets/img/sign_icon.svg"
+import whats_icon from "../assets/img/whats_icon.svg"
 function MainContent() {
-    return (
+    return (  
         <>
             <section className={style.hero}>
                 <div className={style.overlay}></div>
@@ -18,36 +20,36 @@ function MainContent() {
                 <div className={style.article_main_content}>
                     <h2 className={style.title_article}>Conheça nossos serviços</h2>
                     <div className={style.service_cards_section}>
-                        <div className={style.service_card} style={{ width: "18rem" }}>
+                        <div className={style.service_card}>
                             <div className={style.card_body}>
-                                {/* <img src={plane_icon} alt="aviao_icon" style="width:auto"; height="60rem"/> */}
+                                <img src={car_icon} alt="aviao_icon"  width="auto" height="60rem"/>
                                 <h5 className="card-title text-center">Transfer</h5>
                                 <p className="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia harum, nam dicta.</p>
-                                {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
 
-                        <div className={style.service_card} style={{ width: "18rem" }}>
+                        <div className={style.service_card}>
                             <div className={style.card_body}>
-                                {/* <img src="{% static "home/images/car_icon.svg" %}" alt="car_icon" style="width:auto"; height="50rem"> */}
-                                <h5 className="card-title text-center">Transfer</h5>
-                                <p className="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia harum, nam dicta.</p>
-                                <a href="#" className="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-
-                        <div className={style.service_card} style={{ width: "18rem" }}>
-                            <div className={style.card_body}>
-                                {/* <img src="{% static "home/images/sign_icon.svg" %}" alt="sign_icon" style="width:auto"; height="50rem"> */}
+                                <img src={plane_icon} alt="car_icon" width:auto height="60rem" />
                                 <h5 className="card-title text-center">Transfer</h5>
                                 <p className="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia harum, nam dicta.</p>
                                 <a href="#" className="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
 
-                        <div className={style.service_card} style={{ width: "18rem" }}>
+                        <div className={style.service_card} >
                             <div className={style.card_body}>
-                                {/* <img src="{% static "home/images/whats_icon.svg" %}" alt="whats_icon" style="width:auto"; height="50rem"> */}
+                                <img src={sign_icon} alt="sign_icon" width:auto height="60rem" />
+                                <h5 className="card-title text-center">Transfer</h5>
+                                <p className="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia harum, nam dicta.</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                        <div className={style.service_card}>
+                            <div className={style.card_body}>
+                                <img src={whats_icon} alt="whats_icon" width:auto height="60rem" />
                                 <h5 className="card-title text-center">Transfer</h5>
                                 <p className="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia harum, nam dicta.</p>
                                 <a href="#" className="btn btn-success">WhatsApp</a>
@@ -57,7 +59,7 @@ function MainContent() {
 
                     <h2 className={style.title_article}>Translados</h2>
                     <div className={style.service_cards_section}>
-                        <div className="card bg-secondary" style={{ width: "18rem" }}>
+                        <div className="card bg-secondary" >
                             {/* <img src="{% static "home/images/tr1.webp" %}" className="card-img-top" alt="tr1"> */}
                             <div className="card-body">
                                 <h5 className="card-title">Translado 1</h5>
