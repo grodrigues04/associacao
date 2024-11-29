@@ -25,7 +25,7 @@ function MainContent() {
                 </div>
             </section>
 
-            <article>
+            <article className={style.main_div}>
                 <div className={style.article_main_content}>
                     <h2 className={style.title_article}>Conheça nossos serviços</h2>
                     <div className={style.service_cards_section}>
